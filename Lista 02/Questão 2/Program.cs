@@ -27,6 +27,7 @@ namespace Questão_2
             if (x > media) Console.WriteLine(x);
             if (y > media) Console.WriteLine(y);
             if (z > media) Console.WriteLine(z);
+            Console.ReadKey();
         }
     }
 }
