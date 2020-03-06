@@ -15,7 +15,7 @@ namespace Questão_15
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int maior = a; 
-            if (b > maior) maior = c;
+            if (b > maior) maior = b;
             if (c > maior) maior = c;
 
             int menor = a;
