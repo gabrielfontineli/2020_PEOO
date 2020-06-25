@@ -16,8 +16,11 @@ namespace Questão_12
             string[] s = x.Split(c);
             int a = int.Parse(s[0]);
             int b = int.Parse(s[1]);
-           
+
             if (x.Contains('+')) Console.WriteLine(a + b);
+            else if (x.Contains('-')) Console.WriteLine(a - b);
+            else if (x.Contains('*')) Console.WriteLine(a * b);
+            else Console.WriteLine(a / b);
             Console.ReadKey();
         }
     }
